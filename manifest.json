@@ -15,17 +15,16 @@
 
   "page_action": {
     "default_icon": {
-      "16": "extension_toolbar_icon16.png",
-      "32": "extension_toolbar_icon32.png"
+      "16": "icon16.png",
+      "32": "icon32.png"
     },
   
     "default_title": "Press Alt+Shift+X to load a random article from Wikipedia"
   },
   "icons": {
-      "16": "extension_icon16.png",
-      "32": "extension_icon32.png",
-      "48": "extension_icon48.png",
-      "128": "extension_icon128.png"
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "128": "icon128.png"
   },
   "background": {
       "scripts": ["background.js"],
