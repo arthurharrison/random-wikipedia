@@ -3,7 +3,15 @@
   "description": "WebExtension that loads a Random Article from Wikipedia.",
   "version": "1.0",
   "manifest_version": 2,
-  "permissions": ["activeTab"],
+  "permissions": ["activeTab","tabs"],
+  "browser_action": {
+      "default_icon": {
+        "16": "icon16.png",
+        "32": "icon32.png"
+      },
+    
+      "default_title": "Press Alt+Shift+X to load a random article from Wikipedia"
+  },
   "commands": {
       "load-random-article": {
         "suggested_key": {
@@ -11,15 +19,6 @@
         },
         "description": "Loads a random article from Wikipedia"
       }
-  },
-
-  "page_action": {
-    "default_icon": {
-      "16": "icon16.png",
-      "32": "icon32.png"
-    },
-  
-    "default_title": "Press Alt+Shift+X to load a random article from Wikipedia"
   },
   "icons": {
       "16": "icon16.png",
